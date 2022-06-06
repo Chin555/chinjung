@@ -49,5 +49,6 @@
         **Device:** Yealink (DHCP IP Configured)
 
         **VoIP Software:** 3CX
-
+\
+\
         **How to install softphone (VoIP)**
