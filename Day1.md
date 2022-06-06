@@ -66,3 +66,48 @@
         | K. Bale  | [102](http://dev.nodeca.com) |
         | K. Noey  | [103](http://dev.nodeca.com) |
         | K. Jim  | [104](http://dev.nodeca.com) |
+
+* ### IP DHCP
+  * DSG VoIP Diagram
+    * Internal IP address design:
+
+        | Range IP | Device Type |
+        | :------ | :----------- |
+        | 192.168.1.1 - 192.168.1.20  | Server |
+        | 192.168.1.21 - 192.168.1.30  | Printer |
+        | 192.168.1.31 - 192.168.1.40  | Reserved |
+        | 192.168.1.41 - 192.168.1.240  | DHCP |
+        | 192.168.1.241 - 192.168.1.254  | Network Device |
+    * [IP List Allocation](http://dev.nodeca.com) (Click to open)
+
+* ### DNS
+  * 192.168.1.254 (MikroTik Router)
+  * 192.168.10.254 (3BB Router)
+  * 192.168.20.254 (AIS Router)
+
+* ### Device Redundancy
+
+  * VRRP service
+    
+    Both DSG-HQ-LB01 and DSG-HQ-LB02 MiKroTik routers are configured load balancing with VRRP service, therefore the virtual IP from the service is up at IP address: 192.168.1.254 as the picture below:
+
+    | Redundancy | Device Name | Device Model | Device Type |
+    | :------ | :----------- | :------ | :----------- |
+    | Primary/Active | **DSG-HQ-LB01** | MikroTik (CCR1009-7G-1C-1S+) | 255 |
+    | Secondary/Standby | **DSG-HQ-LB02** | MikroTik (B4011iGS+RM) | 100 |
+
+  * Failover: Switch
+    | Failover | Device Name | Device Model |
+    | :------ | :----------- | :------ |
+    | Primary/Active | **DSG-HQ-SW01** | UBIQUITI Switch (US-16-150W) |
+    | Secondary/Active | **DSG-HQ-SW02** | UBIQUITI Switch (US-16-150W) |
+  * Switch LAN ports aggregation
+    - Switch device aggregate configuration: Port 15 and Port 16 on DSG-HQ-SW01 switch 
+   devices are aggregated to link with DSG-HQ-LB01 router devices and DSG-HQ-SW02 switch devices are aggregated to link with DSG-HQ-LB02 router devices.
+
+* ### Firewall
+  - IP NAT by router <br> **Chain:** Source NAT <br> **Mode:** Masquerade <br>
+
+# **HARDWARE DEVICES**
+
+
