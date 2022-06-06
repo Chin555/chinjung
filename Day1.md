@@ -25,3 +25,9 @@
     | :------ | :----------- |
     | Host IP Address   | 192.168.10.254 |
     | Host Subnet Mask   | 255.255.255.0 |
+
+    * DHCP configuration
+  
+    | Start IP Address | 192.168.10.40 |
+    | :------ | :----------- |
+    | End IP Address  | 192.168.10.240 |
