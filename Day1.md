@@ -41,3 +41,13 @@
      - Australia <br> +612 80730593 (English) <br> [61280730593.png](http://dev.nodeca.com) <br> EX Receiver: 101 <br> <br> +612 88800304 (Tagalog)<br> [61288800304.png](http://dev.nodeca.com) <br>EX Receiver: 102 <br> <br> +653 159 1815 (English)<br> [6531591815.png](http://dev.nodeca.com) <br>EX Receiver: 101 <br>
 
      - Singapore <br> +653 159 1815 <br> [653 159 1815.png](http://dev.nodeca.com) <br> EX Receiver: 104 <br>
+
+  *  DSG VoIP Information
+
+        **VoIP Provider:** VoIP Thailand
+
+        **Device:** Yealink (DHCP IP Configured)
+
+        **VoIP Software:** 3CX
+
+        **How to install softphone (VoIP)**
