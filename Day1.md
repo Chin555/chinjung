@@ -52,3 +52,17 @@
 \
 \
         **How to install softphone (VoIP)**
+     - To download the application:
+\
+        [3CX Phone For Windows](http://dev.nodeca.com) (Click to download)
+     - Once downloaded drag and drop the config file for the extension and then it will be set up.
+     - DSG Staff Phone Extension Number:
+        
+        | Staff Name | Extension Number(Click to Download)|
+        | :------: | :-----------: |
+        | K. Dwight  | 200 |
+        | K. Amp  | [100](http://dev.nodeca.com) |
+        | K. Tangkwa, K.Pare  | [101](http://dev.nodeca.com) |
+        | K. Bale  | [102](http://dev.nodeca.com) |
+        | K. Noey  | [103](http://dev.nodeca.com) |
+        | K. Jim  | [104](http://dev.nodeca.com) |
