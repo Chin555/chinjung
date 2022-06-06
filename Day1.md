@@ -110,4 +110,12 @@
 
 # **HARDWARE DEVICES**
 
-
+| Device Name | Model | Units |
+| :------ | :----------- | :------ |
+| MikroTik Router | CCR1009-7G-1C-1S+ 18,290 (8Gb/s) | 1 |
+| MikroTik Router | B4011iGS+RM 8,290 (2Gb/s) | 1 |
+| Ubiquiti Switch | (US-16-150W) 16 Port with PoE + 2 port SFP | 2 |
+| UBIQUITI Wireless Controller | Ubiquiti UniFi Cloud Key (UC-CK) | 1 |
+| UBIQUITI Access Point | UAP-AC-LITE | 5 |
+| UBIQUITI Access Point | UAP-AC-Pro | 1 |
+| CCTV Controller | iDS-7204HQHI-M1 / S | 1 |
