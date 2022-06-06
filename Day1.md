@@ -15,5 +15,4 @@
     * DHCP configuration
   
     | Start IP Address | 192.168.20.40 |
-    | :------ | :----------- |
     | End IP Address  | 192.168.20.240 |
