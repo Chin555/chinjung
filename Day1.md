@@ -119,3 +119,75 @@
 | UBIQUITI Access Point | UAP-AC-LITE | 5 |
 | UBIQUITI Access Point | UAP-AC-Pro | 1 |
 | CCTV Controller | iDS-7204HQHI-M1 / S | 1 |
+
+* ### Router
+
+  * VRRP service
+
+    * MikroTik (CCR1009-7G-1C-1S+)
+      - WAN configuration
+        * **Port:** ETH1
+        * **IP:** 192.168.10.1
+        * **GATEWAY:** 192.168.10.254
+        * **NETMASK:** 255.255.255.0
+        * **DNS:** 192.168.10.254 | 192.168.20.254
+      - LAN configuration
+        * **NAT:** Enabled
+        * **IP:** 192.168.1.253
+        * **NETMASK:** 255.255.255.0
+        * **DHCP Server Range:** 192.168.1.41-192.168.1.140
+    * MikroTik (B4011iGS+RM)
+      - WAN configuration
+        * **Port:** ETH1
+        * **IP:** 192.168.20.2
+        * **GATEWAY:** 192.168.10.254
+        * **NETMASK:** 255.255.255.0
+        * **DNS:** 192.168.10.254 | 192.168.20.254
+      - LAN configuration
+        * **NAT:** Enabled
+        * **IP:** 192.168.20.2
+        * **NETMASK:** 255.255.255.0
+        * **DHCP Server:** Disable
+
+* ### Switch
+  * UBIQUITI (US-16-150W)
+    * DSG-HQ-SW01
+    
+      | **Port Number** | **Status** | **Downlink** |
+      | :------ | :----------- | :------ | 
+      | Port1 | Disconnected |  |
+      | Port2 | Connected | DSG-HQ-UC01 |
+      | Port3 | Connected | Meeting |
+      | Port4 | Connected | SIP-CP960 |
+      | Port5 | Disconnected |  |
+      | Port6 | Disconnected |  |
+      | Port7 | Connected | Desktop-3ULJQR0 |
+      | Port8 | Disconnected |  |
+      | Port9 | Disconnected |  |
+      | Port10 | Disconnected |  |
+      | Port11 | Connected | DSG-HQ-CEO-AP01 |
+      | Port12 | Connected | DSG-HQ-VIP-AP01 |
+      | Port13 | Connected | DSG-HQ-IT-AP01 |
+      | Port14 | Connected | DSG-HQ-SW02 |
+      | Port15 | Connected | DSG-HQ-LB01 |
+      | Port16 | Connected | DSG-HQ-LB01 |
+
+    * DSG-HQ-SW01
+      | **Port Number** | **Status** | **Downlink** |
+      | :------ | :----------- | :------ |
+      | Port1 | Connected | N/a |
+      | Port2 | Connected | DESKTOP-S7JPMFA |
+      | Port3 | Disconnected |  |
+      | Port4 | Disconnected |  |
+      | Port5 | Connected | CCTV |
+      | Port6 | Disconnected |  |
+      | Port7 | Disconnected |  |
+      | Port8 | Disconnected |  |
+      | Port9 | Disconnected |  |
+      | Port10 | Disconnected |  |
+      | Port11 | Connected | DSG-HQ-SRV-AP01 |
+      | Port12 | Connected | DSG-HQ-OPS-AP01 |
+      | Port13 | Connected | DSG-HQ-KIT-AP01 |
+      | Port14 | Connected | DSG-HQ-SW01 |
+      | Port15 | Connected | Aggregating port 16 |
+      | Port16 | Connected | Aggregating port 15 |
