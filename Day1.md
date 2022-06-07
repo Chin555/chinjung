@@ -191,3 +191,28 @@
       | Port14 | Connected | DSG-HQ-SW01 |
       | Port15 | Connected | Aggregating port 16 |
       | Port16 | Connected | Aggregating port 15 |
+
+* ### Wireless Controller
+  * UBIQUITI (UC-CK)
+
+* ### Access point
+  * UBIQUITI UniFi (UAP-AC-LITE-5)
+
+* ### CCTV
+  * Embedded Net DVR
+
+* ### IP Phone
+  * Yealink CP960-Wireless Mic
+
+# **SERVICES**
+* ### Google Workspace (G Suite)
+  - Plan: G-Suite -  Business Starter Plan - $6/User
+  - Benefits
+    * Gmail Business email
+    * Meet Video and voice conferencing - 100 participants
+    * Drive Secure cloud storage - 30 GB per user
+    * Chat Team messaging
+    * Calendar Shared calendars
+    * Docs, Sheets, Slides Collaborative content creation
+
+# **HOW TO ACCESS DEVICES AND SERVICES**
